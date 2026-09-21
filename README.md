@@ -4,6 +4,29 @@
 
 Undergraduate thesis work and everything around it: the experiments, the code as it ran, the logged metrics for every run, and the figures those runs produced. 188 training runs in total, all on free-tier Kaggle accelerators.
 
+## When this work was done
+
+This repository was put together in September 2026, so its commit history starts then. The
+experiments are older. Every run was logged to Weights & Biases while it trained, and W&B
+stamps each run on its own servers, so the dates below come from W&B and not from git.
+
+| Experiment | First run | Last run |
+| --- | --- | --- |
+| ccal-development | 2025-09-24 | 2025-10-31 |
+| dsmat-mamba | 2026-02-10 | 2026-02-11 |
+| diffusion | 2026-02-22 | 2026-02-22 |
+| rectified-flow | 2026-02-26 | 2026-03-01 |
+| ccal-reproduction | 2026-04-25 | 2026-06-24 |
+| efficientnet | 2026-04-27 | 2026-06-25 |
+| vit | 2026-04-27 | 2026-04-27 |
+| plos-cnn | 2026-04-27 | 2026-04-28 |
+| split-benchmark | 2026-06-24 | 2026-06-24 |
+
+![Weights & Biases project list with last-run dates](docs/wandb-projects.png)
+
+The `created_at` column of every `runs.csv` holds the W&B timestamp of each run, and the
+`wandb_url` column links to the run itself.
+
 ## The result
 
 | Seed | Shuffled split | File-order split | Difference |
