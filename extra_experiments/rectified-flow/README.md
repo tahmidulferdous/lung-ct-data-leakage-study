@@ -1,6 +1,8 @@
 # Rectified flow generator for CT slice augmentation
 
 Work beyond the thesis. A rectified-flow generator trained to synthesise CT slices, intended to rebalance the heavily skewed benign class. Includes a JAX/TPU implementation alongside the PyTorch one.
+<img width="1100" height="287" alt="Benign" src="https://github.com/user-attachments/assets/641a4e93-8af1-45e3-9e60-770e869be47d" />
+
 
 | | |
 | --- | --- |
@@ -41,5 +43,7 @@ Work beyond the thesis. A rectified-flow generator trained to synthesise CT slic
 | rf-JAX-8xTPUv5e | 2026-03-01 | 0 min |
 | rf-JAX-8xTPUv5e | 2026-03-01 | 129 min |
 | rf-JAX-8xTPUv5e | 2026-03-01 | 26 min |
+<img width="1100" height="550" alt="loss_curve" src="https://github.com/user-attachments/assets/ea5a7915-2f3a-453d-8793-a089aabfc5de" />
+
 
 Part of [lung-ct-data-leakage-study](../..). Original Weights & Biases project name: `ct-rectified-flow`.
