@@ -1,6 +1,7 @@
 # Class-conditional DDPM for CT slice augmentation
 
 Work beyond the thesis. A denoising diffusion model trained on the same dataset for the same augmentation purpose, run before the rectified-flow attempt.
+![Uploading image.png…]()
 
 | | |
 | --- | --- |
